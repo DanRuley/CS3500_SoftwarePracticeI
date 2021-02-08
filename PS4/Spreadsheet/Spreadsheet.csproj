@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>C:\Users\Dan\Source\Repos\u0956834\PS4\Spreadsheet\Spreadsheet.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DependencyGraph">
+      <HintPath>..\Resources\Libraries\DependencyGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="Formula">
+      <HintPath>..\Resources\Libraries\Formula.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

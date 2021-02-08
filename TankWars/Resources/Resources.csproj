@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91AA4311-B3D8-4AC9-AC47-33F7EDA9C56B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\Background.png" />
+    <Content Include="Resources\Images\BlueTank.png" />
+    <Content Include="Resources\Images\BlueTurret.png" />
+    <Content Include="Resources\Images\BlueTurretBig.png" />
+    <Content Include="Resources\Images\DarkTank.png" />
+    <Content Include="Resources\Images\DarkTurret.png" />
+    <Content Include="Resources\Images\Explosion.gif" />
+    <Content Include="Resources\Images\GreenTank.png" />
+    <Content Include="Resources\Images\GreenTurret.png" />
+    <Content Include="Resources\Images\LightGreenTank.png" />
+    <Content Include="Resources\Images\LightGreenTurret.png" />
+    <Content Include="Resources\Images\OrangeTank.png" />
+    <Content Include="Resources\Images\OrangeTurret.png" />
+    <Content Include="Resources\Images\PurpleTank.png" />
+    <Content Include="Resources\Images\PurpleTurret.png" />
+    <Content Include="Resources\Images\Ray.gif" />
+    <Content Include="Resources\Images\RayPowerup.png" />
+    <Content Include="Resources\Images\RedTank.png" />
+    <Content Include="Resources\Images\RedTurret.png" />
+    <Content Include="Resources\Images\shot-blue.png" />
+    <Content Include="Resources\Images\shot-brown.png" />
+    <Content Include="Resources\Images\shot-green.png" />
+    <Content Include="Resources\Images\shot-grey.png" />
+    <Content Include="Resources\Images\shot-red.png" />
+    <Content Include="Resources\Images\shot-violet.png" />
+    <Content Include="Resources\Images\shot-white.png" />
+    <Content Include="Resources\Images\shot-yellow.png" />
+    <Content Include="Resources\Images\shot_blue.png" />
+    <Content Include="Resources\Images\shot_grey.png" />
+    <Content Include="Resources\Images\shot_red_new.png" />
+    <Content Include="Resources\Images\shot_violet.png" />
+    <Content Include="Resources\Images\WallSprite.png" />
+    <Content Include="Resources\Images\YellowTank.png" />
+    <Content Include="Resources\Images\YellowTurret.png" />
+    <Content Include="Resources\NetworkController.dll" />
+    <Content Include="Resources\NetworkController.xml" />
+    <Content Include="Resources\README.txt" />
+    <Content Include="Resources\settings.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
